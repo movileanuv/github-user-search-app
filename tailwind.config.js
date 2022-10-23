@@ -21,6 +21,13 @@ module.exports = {
       },
       fontFamily: {
         'mono': ['Space Mono', 'monospace']
+      },
+      spacing: {
+        '6.5': '1.625rem',
+        '7.5': '1.875rem'
+      },
+      fontSize: {
+        '2xl': ['1.625rem', '2.4375rem']
       }
     },
   },
