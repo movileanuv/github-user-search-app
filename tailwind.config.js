@@ -18,7 +18,8 @@ module.exports = {
         grayishBlack: '#2B3442',
         whitish: '#FEFEFE',
         blackish: '#141D2F',
-        blackishBlue: '#1E2A47'
+        blackishBlue: '#1E2A47',
+        blacky: 'rgb(var(--blacky) / <alpha-value>)'
       },
       fontFamily: {
         'mono': ['Space Mono', 'monospace']
