@@ -10,8 +10,12 @@ module.exports = {
         blue: {
           DEFAULT: '#0079FF'
         },
+        blueInactive: '#60ABFF',
         gray: {
           DEFAULT: '#697C9A'
+        },
+        red: {
+          DEFAULT: '#F74646'
         },
         lightGray: '#F6F8FF',
         grayishBlue: '#4B6A9B',
@@ -29,7 +33,14 @@ module.exports = {
         '7.5': '1.875rem'
       },
       fontSize: {
+        'sm': '.8125rem',
         '2xl': ['1.625rem', '2.4375rem']
+      },
+      boxShadow: {
+        DEFAULT: "0px 16px 30px -10px rgba(70, 96, 187, 0.198567)"
+      },
+      borderRadius: {
+        DEFAULT: '0.625rem'
       }
     },
   },
