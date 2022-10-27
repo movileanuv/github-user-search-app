@@ -10,8 +10,8 @@
 
     <title>Frontend Mentor | GitHub user search app</title>
 </head>
-<body class="px-6 py-7.5 font-mono bg-lightGray dark:bg-blackish">
-<main class="">
+<body class="px-6 py-7.5 sm:px-[98px] sm:py-[140px] font-mono bg-lightGray dark:bg-blackish">
+<main class="sm:max-w-[573px] mx-auto">
     <div class="mb-9 flex items-center justify-between">
         <h1 class="text-2xl font-bold text-blacky dark:text-white">devfinder</h1>
         <div class="cursor-pointer text-gray dark:text-white" id="toggle-dark-mode">
@@ -32,7 +32,7 @@
             </div>
         </div>
     </div>
-    <form class="mb-4 flex items-center rounded bg-white p-2 text-sm shadow dark:bg-blackishBlue dark:shadow-none">
+    <form class="mb-4 sm:mb-6 flex items-center rounded bg-white p-2 text-sm shadow dark:bg-blackishBlue dark:shadow-none">
         <label for="search" class="mx-2">
             <span class="hidden">Search:</span>
             <svg viewBox="0 0 24 24" class="h-5 w-5 fill-current text-blue" xmlns="http://www.w3.org/2000/svg">
@@ -46,29 +46,29 @@
     </form>
     <article class="rounded bg-white px-6 py-8 shadow dark:bg-blackishBlue dark:shadow-none">
         <div class="flex mb-[33px]">
-            <div class="w-[70px] h-[70px] mr-[19px]" id="user-image-container"></div>
+            <div class="w-[70px] sm:w-[117px] h-[70px] sm:h-[117px] mr-[19px] sm:mr-[41px]" id="user-image-container"></div>
             <div>
-                <h2 class="font-bold leading-6 text-grayishBlack dark:text-white" id="user-full-name">The Octocat</h2>
-                <span class="block mb-1.5 text-[13px] text-blue leading-[19px]" id="username">@octocat</span>
-                <span class="block leading-[19px] text-[13px] text-gray dark:text-white" id="date-joined">Joined 25 Jan 2011</span>
+                <h2 class="font-bold leading-6 text-grayishBlack dark:text-white text-[26px] sm:mb-0.5" id="user-full-name">The Octocat</h2>
+                <span class="block mb-1.5 sm:mb-1 text-[13px] sm:text-base text-blue leading-[19px]" id="username">@octocat</span>
+                <span class="block leading-[19px] text-[13px] sm:text-[15px] text-gray dark:text-white" id="date-joined">Joined 25 Jan 2011</span>
             </div>
         </div>
         <p class="leading-[25px] text-[13px] text-grayishBlue dark:text-white mb-[23px]">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.</p>
-        <div class="mb-6 flex bg-lightGray dark:bg-blackish px-3.5 py-[18px] rounded-[10px] justify-around">
-            <div class="flex flex-1 flex-col items-center">
+        <div class="mb-6 flex bg-lightGray dark:bg-blackish px-3.5 sm:p-8 py-[18px] sm:py-4 rounded-[10px] justify-around">
+            <div class="flex flex-1 flex-col items-center sm:items-start">
                 <span class="block leading-4 mb-2 text-[11px] text-grayishBlue dark:text-white">Repos</span>
                 <span class="block font-bold leading-6 text-grayishBlack dark:text-white" id="repos">8</span>
             </div>
-            <div class="flex flex-1 flex-col items-center">
+            <div class="flex flex-1 flex-col items-center sm:items-start">
                 <span class="block leading-4 mb-2 text-[11px] text-grayishBlue dark:text-white">Followers</span>
                 <span class="block font-bold leading-6 text-grayishBlack dark:text-white" id="followers">3938</span>
             </div>
-            <div class="flex flex-1 flex-col items-center">
+            <div class="flex flex-1 flex-col items-center sm:items-start">
                 <span class="block leading-4 mb-2 text-[11px] text-grayishBlue dark:text-white">Following</span>
                 <span class="block font-bold leading-6 text-grayishBlack dark:text-white" id="following">9</span>
             </div>
         </div>
-        <div class="mb-4 grid grid-cols-1 gap-4 text-[13px] text-grayishBlue dark:text-white ">
+        <div class="mb-4 grid grid-rows-4 sm:grid-flow-col sm:grid-rows-2 gap-4 text-[13px] text-grayishBlue dark:text-white ">
             <div class="relative flex items-center">
                 <svg class="fill-current" height="20" width="14" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12.797 3.425C11.584 1.33 9.427.05 7.03.002a7.483 7.483 0 00-.308 0C4.325.05 2.17 1.33.955 3.425a6.963 6.963 0 00-.09 6.88l4.959 9.077.007.012c.218.38.609.606 1.045.606.437 0 .828-.226 1.046-.606l.007-.012 4.96-9.077a6.963 6.963 0 00-.092-6.88zm-5.92 5.638c-1.552 0-2.813-1.262-2.813-2.813s1.261-2.812 2.812-2.812S9.69 4.699 9.69 6.25 8.427 9.063 6.876 9.063z"/>
