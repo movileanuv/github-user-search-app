@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontendmentor](https://www.frontendmentor.io/challenges/github-user-search-app-Q09YOgaH6/hub/github-user-search-app-with-tailwindcss-and-pure-js-dk6qMY9FyC)
 - Live Site URL: [Netlify](https://legendary-fairy-79b95d.netlify.app/)
 
 ## My process
