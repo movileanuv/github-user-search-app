@@ -89,7 +89,7 @@ function displayData(data) {
   usernameAnchorTag.href = data.html_url
   usernameAnchorTag.innerText = `@${data.login}`
   dateJoined.innerText = formatDateJoined(data.created_at)
-  description.innerText = "todo"
+  description.innerText = data.bio
   repos.innerText = data.public_repos
   followers.innerText = data.followers
   following.innerText = data.following
