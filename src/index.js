@@ -23,6 +23,7 @@ noResultsMessage.innerText = 'No results'
 userImage.addEventListener('load', evt => imageContainer.appendChild(userImage))
 form.addEventListener('submit', handleFormSubmit)
 document.getElementById('toggle-dark-mode').addEventListener('click', toggleDarkTheme)
+window.addEventListener('DOMContentLoaded', init);
 
 /*
 * Toggle Light and Dark mode
@@ -163,3 +164,9 @@ function setCompany(data) {
 }
 
 // initial state
+async function init(evt) {
+  const username = Boolean(window.location.hash) ? window.location.hash.substring(1) : 'octocat'
+  console.log(username)
+  data = await fetchUserData(username)
+  displayData(data)
+}
