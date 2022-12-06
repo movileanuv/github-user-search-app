@@ -22,6 +22,7 @@ noResultsMessage.classList.add("mr-2", "xl:mr-6", "w-auto", "shrink-0", "font-bo
 noResultsMessage.innerText = 'No results'
 userImage.addEventListener('load', evt => imageContainer.appendChild(userImage))
 form.addEventListener('submit', handleFormSubmit)
+document.getElementById('toggle-dark-mode').addEventListener('click', toggleDarkTheme)
 
 /*
 * Toggle Light and Dark mode
@@ -54,8 +55,6 @@ function toggleDarkTheme() {
     setDarkTheme()
   }
 }
-
-document.getElementById('toggle-dark-mode').addEventListener('click', toggleDarkTheme)
 
 /*
 * query logic
