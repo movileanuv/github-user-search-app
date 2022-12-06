@@ -135,9 +135,11 @@ function setWebsite(data) {
     websiteAnchorTag.href = data
     websiteAnchorTag.innerText = data
     website.parentElement.classList.remove('opacity-50')
+    website.classList.add('hover:underline')
   } else {
     website.innerText = "Not Available"
     website.parentElement.classList.add('opacity-50')
+    website.classList.remove('hover:underline')
   }
 }
 
