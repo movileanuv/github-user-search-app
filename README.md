@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontendmentor](https://www.frontendmentor.io/solutions/github-user-search-app-with-tailwindcss-and-pure-js-dk6qMY9FyC)
-- Live Site URL: [Netlify](https://legendary-fairy-79b95d.netlify.app/)
+- Live Site URL: [Netlify](https://github-user-search-app-movileanuv.netlify.app/)
 
 ## My process
 
